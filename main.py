@@ -104,7 +104,6 @@ def main():
         imprimir_menu(opciones, seleccionada)
         
         key = msvcrt.getch()
-        print(key)
         key = msvcrt.getch()
         if key == b'H':  # Flecha arriba
             seleccionada = (seleccionada - 1) % len(opciones)
